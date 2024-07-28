@@ -1,0 +1,13 @@
+{
+    "short_name": "TextFacade",
+    "name": "TextFacade",
+    "icons": [
+        {
+            "src": "/logo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "theme_color": "#00B1B0",
+    "display": "fullscreen"
+}
