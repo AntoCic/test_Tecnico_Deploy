@@ -51,8 +51,9 @@ form.addEventListener('submit', (event) => {
             })
                 .then((response) => response.json())
                 .then((res) => {
-                    showResults(res, inputUrl.value.trim())
-                    resetForm()
+                    console.log(res);
+                    // showResults(res, inputUrl.value.trim())
+                    // resetForm()
                 })
                 .catch((err) => {
                     console.log(err);
@@ -72,8 +73,9 @@ form.addEventListener('submit', (event) => {
         })
             .then((response) => response.json())
             .then((res) => {
-                showResults(res, inputUrl.value.trim())
-                resetForm()
+                console.log(res);
+                // showResults(res, inputUrl.value.trim())
+                // resetForm()
             })
             .catch((err) => {
                 console.log(err);
